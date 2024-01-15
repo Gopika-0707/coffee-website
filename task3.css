@@ -1,0 +1,125 @@
+body-container{
+    /* background-color: rgb(13, 127, 227); */
+    height: 800px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.nav{
+    background-color:black;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    padding: 30px 10px!important;
+    position: fixed;
+}
+.heroSection {
+    background-image:url("coffeehouse.jpg");
+    height: 75vh;
+    background-size: cover; 
+    background-position: center;
+    min-height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.head{
+    background-color:black;
+    width: 24.99%;
+    justify-content: space-between;
+    float:left;
+    color: white;
+}  
+.head1
+{
+    font-size: 100px; 
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+.open
+{
+    position:absolute;
+    bottom: 10px;
+    left: 15px;
+    background-color: rgb(0, 4, 6);
+    color: aliceblue;
+    padding: 5px;
+
+}
+.Adr
+{
+    position:absolute;
+    bottom: 10px;
+    right: 15px;
+    color: aliceblue;
+    padding: 5px; 
+    font-weight: 600;
+}  
+.hero{
+/* background-color: antiquewhite; */
+height: 550px;    
+}
+.about{
+    /* background-color: antiquewhite; */
+    height: 1050px;
+    width: 600px;
+    margin: 0px auto;
+}
+h5{
+    text-align: center;
+    color: white;
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+p{
+    text-align: center;
+}
+.small{
+    background-color: rgba(237, 231, 231, 0.838);
+    height: 120px;
+}
+.medium{
+    /* background-color: aquamarine; */
+    height: 610px;
+}
+.menu{
+    background-color: rgb(251, 249, 249);
+    justify-content: space-between;
+    width: 100%;    
+    display: flex;
+}
+.menu-bar{
+    width: 50%;
+    
+}
+.subpara{
+    text-align: left;
+    padding: 10px;
+}
+.form{
+    left: 200px;
+    margin-right: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+.menu{
+background-color: rgb(251, 249, 249);
+justify-content: space-between;
+width: 100%;    
+display: flex;
+}
+.menu-bar{
+width: 50%;
+
+}
+.subpara{
+text-align: left;
+padding: 10px;
+}
+.form{
+left: 200px;
+margin-right: 100px;
+margin-top: 100px;
+margin: 0px auto;
+}
